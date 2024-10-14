@@ -1,0 +1,148 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00f0ff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #00f0ff;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    padding: 50px 20px;
+    background: #222;
+}
+
+.about h2 {
+    font-size: 28px;
+    color: #00f0ff;
+}
+
+.about h1 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.about p {
+    font-size: 18px;
+    margin: 10px 0 20px;
+}
+
+.cta {
+    background-color: #00f0ff;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+    background-color: #008b8b;
+}
+
+/* Certificates Section */
+.certificates {
+    background: #1a1a1a;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.certificates h2 {
+    font-size: 28px;
+    color: #00f0ff;
+    margin-bottom: 30px;
+}
+
+.certificate-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.certificate-gallery img {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* Skills Section */
+.skills {
+    background: #222;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 28px;
+    color: #00f0ff;
+    margin-bottom: 30px;
+}
+
+.skills-list {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.skill {
+    margin-bottom: 15px;
+}
+
+.skill span {
+    display: inline-block;
+    width: 200px;
+    font-weight: bold;
+}
+
+.skill-bar {
+    background: #333;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+    width: calc(100% - 210px);
+    display: inline-block;
+}
+
+.skill-level {
+    background: #00f0ff;
+    height: 100%;
+    color: #000;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    border-radius: 5px;
+}
